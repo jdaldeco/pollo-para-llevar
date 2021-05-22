@@ -73,6 +73,7 @@
      <Compile Include="Assets\NatureManufacture Assets - Trials Not Full Resolution\NatureManufacture Wind\NM_Wind.cs" />
      <Compile Include="Assets\Scripts\Colisiones.cs" />
      <Compile Include="Assets\Scripts\Enemigo_Movimiento.cs" />
+     <Compile Include="Assets\Scripts\Enemigo_Movimiento2.cs" />
      <Compile Include="Assets\Scripts\LevelMgr.cs" />
      <Compile Include="Assets\Scripts\Over.cs" />
      <Compile Include="Assets\Scripts\SwitchToLvl2.cs" />
@@ -89,6 +90,7 @@
      <None Include="Assets\3D Models\Edificios\Windridge City Assets\Third-Party Notices.txt" />
      <None Include="Assets\NatureManufacture Assets - Trials Not Full Resolution\Foliage Shaders\Tree_Leaves_Specular.shader" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\patch-924648.shader" />
+     <None Include="Assets\3D Models\Items\Chicken Gun\Read Meh.txt" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\bricks-868344.shader" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\README.txt" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\wood-938698.shader" />
