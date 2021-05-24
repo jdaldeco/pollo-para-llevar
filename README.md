@@ -1,1 +1,0 @@
-# pollo-para-llevar
