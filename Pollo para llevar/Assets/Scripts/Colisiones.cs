@@ -8,7 +8,7 @@ using SpeechLib;
 public class Colisiones : MonoBehaviour {
 	public GameObject vidaTotal;
 	private int puntos=0;
-	private int vida=100;
+	private int vida=5;
 	public AudioClip SonidoCoin;
 
 	private SpVoice voice;
@@ -43,8 +43,12 @@ public class Colisiones : MonoBehaviour {
 			Debug.Log ("Toque enemigo");
 			//gameObject.GetComponent<AudioSource> ().PlayOneShot (SonidoCoin, 0.7f);
 			//Destroy (objeto.gameObject);
-			vida -= 3;
+			vida -= 4;
 			vidaTotal.GetComponent<Text>().text=vida.ToString();
+		}
+		if (objeto.gameObject.tag== "persona") {
+			Debug.Log ("Toque persona");
+			Over.showGanar();
 		}
 		if(vida <= 0){
 			Over.show();

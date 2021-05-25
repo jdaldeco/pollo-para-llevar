@@ -8,6 +8,7 @@ TagManager:
   - vidaTotal
   - bullet
   - chickenSpace
+  - persona
   layers:
   - Default
   - TransparentFX
