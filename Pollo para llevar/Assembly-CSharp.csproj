@@ -92,6 +92,7 @@
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\patch-924648.shader" />
      <None Include="Assets\3D Models\Items\Chicken Gun\Read Meh.txt" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\bricks-868344.shader" />
+     <None Include="Assets\3D Models\Personajes\King Chicken\images\Alt2\NOTE.txt" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\README.txt" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\wood-938698.shader" />
      <None Include="Assets\Scenes\READ ME - About Scene.txt" />
@@ -100,6 +101,7 @@
      <None Include="Assets\3D Models\Humanos\Roxie Sharpe\readme.txt" />
      <None Include="Assets\NatureManufacture Assets - Trials Not Full Resolution\Foliage Shaders\Cross_Model_Shader.shader" />
      <None Include="Assets\NatureManufacture Assets - Trials Not Full Resolution\Foliage Shaders\NMWind.cginc" />
+     <None Include="Assets\3D Models\Personajes\King Chicken\Tag.txt" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\texture-709723.shader" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\wood-731407.shader" />
      <None Include="Assets\Parkgarage\parkinggarage_readMe.txt" />
@@ -109,7 +111,6 @@
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\stone-805287.shader" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\wall-846015.shader" />
      <None Include="Assets\3D Models\Almacenes\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
-     <None Include="Assets\3D Models\Personajes\Crash Team Racing Nitro-Fueled\King Chicken\images\AltHelmet\NOTE.txt" />
      <None Include="Assets\3D Models\Edificios\Windridge City Assets\CTS Trial\Shaders\CTS Terrain Shader Advanced Trial.shader" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\brick-957827.shader" />
      <None Include="Assets\3D Models\Almacenes\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
@@ -119,7 +120,6 @@
      <None Include="Assets\3D Models\Edificios\Windridge City Assets\READ ME - About project and assets.txt" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\wood-877365.shader" />
      <None Include="Assets\NatureManufacture Assets - Trials Not Full Resolution\Foliage Shaders\NM_indirect.cginc" />
-     <None Include="Assets\3D Models\Personajes\Crash Team Racing Nitro-Fueled\King Chicken\Tag.txt" />
      <None Include="Assets\3D Models\Edificios\Windridge City Assets\CTS Trial\Shaders\CTS Terrain Shader Advanced LOD Trial.shader" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\wall-846013.shader" />
      <None Include="Assets\Texturas\HighQualityBricks&amp;Walls\Shaders\brick-807728.shader" />

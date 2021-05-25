@@ -1,0 +1,1 @@
+Despite King Turkey's eye texture being called "EyeRed_C" originally, it is quite clearly not red. This inconsistency can be seen with its portrait (where it has red eyes), compared to its in-game appearance (which has green eyes). I've supplied Baby N. Tropy's eye textures as an alternative, since it's as close to its "official" eye color.

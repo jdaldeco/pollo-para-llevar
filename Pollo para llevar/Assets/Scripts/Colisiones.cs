@@ -46,9 +46,14 @@ public class Colisiones : MonoBehaviour {
 			vida -= 4;
 			vidaTotal.GetComponent<Text>().text=vida.ToString();
 		}
+		if (objeto.gameObject.tag== "chickenKing") {
+			Debug.Log ("Toque enemigo 2");
+			vida -= 5;
+			vidaTotal.GetComponent<Text>().text=vida.ToString();
+		}
 		if (objeto.gameObject.tag== "persona") {
 			Debug.Log ("Toque persona");
-			Over.showGanar();
+			Over.show();
 		}
 		if(vida <= 0){
 			Over.show();
