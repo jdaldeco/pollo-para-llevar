@@ -1,0 +1,1 @@
+Even though King Chicken's space helmet shares the same UV mapping as the other space chickens, it opts to use a simplistic set instead. This folder contains the "original" textures.

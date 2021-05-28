@@ -10,6 +10,7 @@ TagManager:
   - chickenSpace
   - persona
   - chickenKing
+  - Ace
   layers:
   - Default
   - TransparentFX

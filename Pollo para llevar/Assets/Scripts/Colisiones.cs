@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.Audio;
 using SpeechLib;
 
 public class Colisiones : MonoBehaviour {
@@ -10,14 +10,24 @@ public class Colisiones : MonoBehaviour {
 	private int puntos=0;
 	private int vida=5;
 	public AudioClip SonidoCoin;
+	public AudioSource audiosrc;
 
 	private SpVoice voice;
 	public static string finaltext="";
+
+	public AudioClip SonidoFinal = null;
+
+	public AudioClip SonidoHeart = null;
+    public float Volumen = 1.0f;
+    protected Transform Posicion = null;
+
 
 	// Use this for initialization
 	void Start () {
 		vidaTotal = GameObject.FindWithTag ("vidaTotal");
 		voice=new SpVoice();
+		audiosrc = GetComponent<AudioSource>();
+		Posicion = transform;
 	}
 	
 	// Update is called once per frame
@@ -31,7 +41,7 @@ public class Colisiones : MonoBehaviour {
 		voice.Rate = 0;
 		if (objeto.gameObject.tag== "heart") {
 			Debug.Log ("Toque vida");
-			gameObject.GetComponent<AudioSource> ().PlayOneShot (SonidoCoin, 0.7f);
+			if(SonidoHeart) AudioSource.PlayClipAtPoint(SonidoHeart, Posicion.position, Volumen);
 			Destroy (objeto.gameObject);
 			vida += 5;
 			vidaTotal.GetComponent<Text>().text=vida.ToString();
@@ -41,8 +51,6 @@ public class Colisiones : MonoBehaviour {
 		}
 		if (objeto.gameObject.tag== "chickenSpace") {
 			Debug.Log ("Toque enemigo");
-			//gameObject.GetComponent<AudioSource> ().PlayOneShot (SonidoCoin, 0.7f);
-			//Destroy (objeto.gameObject);
 			vida -= 4;
 			vidaTotal.GetComponent<Text>().text=vida.ToString();
 		}
@@ -51,12 +59,19 @@ public class Colisiones : MonoBehaviour {
 			vida -= 5;
 			vidaTotal.GetComponent<Text>().text=vida.ToString();
 		}
+		if (objeto.gameObject.tag== "Ace") {
+			Debug.Log ("Toque enemigo 3");
+			vida -= 10;
+			vidaTotal.GetComponent<Text>().text=vida.ToString();
+		}
 		if (objeto.gameObject.tag== "persona") {
 			Debug.Log ("Toque persona");
-			Over.show();
+			if(SonidoFinal) AudioSource.PlayClipAtPoint(SonidoFinal, Posicion.position, Volumen);
+			Game_Win.GameWinShow();
 		}
-		if(vida <= 0){
-			Over.show();
+		if(vida < 1){
+			//Over.show();
+			GameOver.GameOverShow();
 		}
 
 	}
